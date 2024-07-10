@@ -30,7 +30,7 @@
 	</form>
 	
 	
-	<h2>2. HTTP 요청 헤더 정보 읽기</h2>
+	<h2>3. HTTP 요청 헤더 정보 읽기</h2>
 	<a href="requestHeader.jsp">요청 헤더 정보 읽기</a>
 	
 </body>

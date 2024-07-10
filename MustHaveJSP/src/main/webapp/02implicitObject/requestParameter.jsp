@@ -19,7 +19,7 @@
 	<ul>
 		<li>아이디 : <%= id %></li>
 		<li>성 별 : <%= gender %></li>
-		<li>관심사항 : <%= favo %></li>
+		<li>관심사항 : <%= favos %></li>
 		<li>자기소개 : <%= intro %></li>
 	</ul>
 	
