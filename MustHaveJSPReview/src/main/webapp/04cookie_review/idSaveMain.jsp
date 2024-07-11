@@ -2,9 +2,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%
-  String loginId = CookieManager.readCookie(request, "loginId");
-
-  String cookieCheck = "";
+ 	String loginId = CookieManager.readCookie(request, "loginId");
+  
+	String cookieCheck = "";
   if(!loginId.equals("")){
   	cookieCheck = "checked";
   }

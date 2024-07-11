@@ -16,6 +16,7 @@
     <param-value>web.xml 에 저장한 초기화 매개변수</param-value>
   </context-param>
 
+  
   <!-- <error-page>
     <error-code>404</error-code> 
     <location>/02implicitObject/exception.jsp</location>
@@ -28,4 +29,28 @@
     <error-code>500</error-code> 
     <location>/02implicitObject/exception.jsp</location>
   </error-page> -->
+
+
+<context-param>
+  <param-name>OracleDriver</param-name>
+  <param-value>oracle.jdbc.OracleDriver</param-value>
+</context-param>
+
+<context-param>
+  <param-name>OracleURL</param-name>
+  <param-value>jdbc:oracle:thin:@localhost:1521:xe</param-value>
+</context-param>
+
+<context-param>
+  <param-name>OracleId</param-name>
+  <param-value>tjoeun</param-value>
+</context-param>
+
+<context-param>
+  <param-name>OraclePw</param-name>
+  <param-value>1111</param-value>
+</context-param>
+
+
+
 </web-app>
